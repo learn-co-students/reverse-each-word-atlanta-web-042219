@@ -6,5 +6,5 @@ def reverse_each_word(input)
     word = word.reverse
     output = output + word + " "
   end
-  output
+  output.trim
 end
