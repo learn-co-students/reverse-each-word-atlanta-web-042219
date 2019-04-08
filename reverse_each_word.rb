@@ -8,6 +8,6 @@ def reverse_each_word(input)
     word = word.reverse
     output = output + word + " "
   end
-  #binding.pry
+  binding.pry
   output.strip
 end
